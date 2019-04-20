@@ -1,0 +1,9 @@
+"use strict";
+// lib/server.ts
+Object.defineProperty(exports, "__esModule", { value: true });
+const app_1 = require("./app");
+const PORT = 8080;
+app_1.default.listen(PORT, () => {
+    console.log('HCL Hackathon server listening on port ' + PORT);
+});
+//# sourceMappingURL=server.js.map
